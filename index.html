@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body class="content">
+
+  <header>
+  <img src="img/jessiclub.png" class="layer" alt="layer">
+
+  <div class="nav1" id="jcc">
+      <a href="javascript:void(0);" style="font-size:30px;" class="icon"
+          onclick="myFunction()">&#9776;</a>
+      <a class="btn col-m-12">登入</a>
+      <a class="btn col-m-12">註冊</a>
+      <a class="btn col-m-12">會員專區</a>
+	  <a class="btn col-m-12">訂單查詢</a>
+	  <a class="btn col-m-12">購物車</a>
+	  <a class="btn col-m-12">詢問</a>
+	  <a class="btn col-m-12">語言</a>
+
+    </div>
+    <script>
+      function myFunction() {
+          var x = document.getElementById("jcc");
+          if (x.className === "nav1") {
+              x.className += " responsive";
+          } else {
+              x.className = "nav1";
+          }
+      }
+    </script>
+	  
+  <!---<img src="img/user.svg" class="user" alt="user">
+  <div class="nav1">登入</div>
+  <div class="nav1">註冊</div>
+  <div class="nav2">會員專區</div>
+  <div class="nav2">訂單查詢</div>
+  <img src="img/cart.svg" class="cart" alt="cart">
+  <img src="img/Q.svg" class="Q" alt="Q">
+  <img src="img/gloabal.svg" class="gloabal" alt="gloabal">
+  <div class="lan">中文</div> --->
+    </header>
+    <div class="container">
+    <banner>
+      <picture>
+        <source srcset="img/banner.png" media="(min-width:768px)">
+        <source srcset="img/banner 2.png" media="(min-width:480px)">
+        <img class="banner" src="img/banner 3.png" alt="banner">
+      </picture>
+    </banner>
+  <div class="clear">
+    <div class="floatleft marginright relative col-m-6 col-s-12">
+      <picture>
+        <source srcset="img/mi.png" media="(min-width:768px)">
+        <source srcset="img/mi 2.png" media="(min-width:480px)">
+        <img class="Imgmain" src="img/mi 3.png" alt="mi">
+      </picture>
+    </div>
+      <p class="name">潔西卡·秀妍·鄭（Jessica Sooyoun Jung）為她出生於美國時父母替她取的英文本名，韓國本名為鄭秀妍，並以潔西卡作為藝名出道。<br><br>
+		出生於美國加利福尼亞州舊金山，父親是一名拳擊選手，母親是一名體操運動員，其親妹妹為韓國女子團體f(x)成員Krystal，幼年時期在舊金山成長，後能夠精通英語和韓語。<br><br>
+		美韓雙籍，為歌手、演員、設計師，曾為少女時代成員，創立品牌「BLANC & ECLARE」的總裁兼創作總監。</p>
+  </div>
+<div class="clear ">
+    <div class="div floatleft col-s-12">
+      <img class="Img" src="img/c1.png" alt="">
+      <h2>個人簡介</h2>
+    </div>
+    <div class="div floatleft  col-s-12">
+      <img class="Img" src="img/c2.png" alt="">
+      <h2>歌手生涯</h2>
+    </div>
+    <div class="div2 floatleft col-s-12">
+      <img class="Img" src="img/c3.png" alt="">
+      <h2>演員生涯</h2>
+    </div>
+  </div>
+
+  <div class="clear"></div>
+		
+<div class="fanclub">
+      <picture>
+        <source srcset="img/fan.jpg" media="(min-width:768px)">
+        <source srcset="img/fans 2.png" media="(min-width:480px)">
+        <img class="fan" src="img/fans 3.png" alt="fanclub">
+      </picture>
+	<h2>台灣飯區</h2>
+</div>
+
+<div class="album">專輯精選</div>
+<div class="clear ">
+    <div class="div3 floatleft col-s-12">
+      <img class="Img" src="img/album1.png"alt="">
+    </div>
+    <div class="div3 floatleft  col-s-12">
+      <img class="Img" src="img/album2.png" alt="">
+    </div>
+    <div class="div4 floatleft col-s-12">
+      <img class="Img" src="img/album 3.png" alt="">
+    </div>
+  </div>
+
+<div class="album">創作精選</div>	
+<div class="clear ">
+    <div class="div3 floatleft col-s-12">
+      <img class="Img" src="img/work1.png"alt="">
+    </div>
+    <div class="div3 floatleft  col-s-12">
+      <img class="Img" src="img/work2.png" alt="">
+    </div>
+    <div class="div4 floatleft col-s-12">
+      <img class="Img" src="img/work3.png" alt="">
+    </div>
+  </div>		
+		
+  <div class="clear"></div>
+  <div class="space"></div>
+  </div>
+	
+	<footer>
+	<div class="clear relative">
+    <p>lineid:jcc0418<br>email:lovesyj0418@gmail.com</p>
+    <ul class="Bar abcd">
+      <li class="floatleft icon"><img src="img/fb.png"alt="facebook" height="32" width="32"></li>
+      <li class="floatleft icon"><img src="img/yt.png"alt="youtube" height="32" width="32"></li>
+	  <li class="floatleft icon"><img src="img/wb.png" alt="weibo" height="32" width="32"></li>
+      <li class="floatleft icon"><img src="img/ig.png" alt="ig" height="32" width="32"></li>
+
+    </ul>
+	</div>
+  </footer>
+  
+
+
+</body>
+
+</html>
